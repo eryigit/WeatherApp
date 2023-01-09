@@ -70,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				FDC66843296C324E00FC7867 /* WeatherApp */,
-				FDC66846296C324E00FC7867 /* SceneDelegate.swift */,
-				FDC66844296C324E00FC7867 /* AppDelegate.swift */,
 				FDC66842296C324E00FC7867 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +85,8 @@
 		FDC66843296C324E00FC7867 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				FDC66844296C324E00FC7867 /* AppDelegate.swift */,
+				FDC66846296C324E00FC7867 /* SceneDelegate.swift */,
 				FD1EC052296CA67F00429649 /* Controllers */,
 				FD1EC053296CA69000429649 /* Views */,
 				FD1EC051296CA66700429649 /* Supporting Files */,

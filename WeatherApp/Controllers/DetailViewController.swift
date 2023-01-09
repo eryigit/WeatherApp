@@ -22,7 +22,7 @@ class DetailViewController: UIViewController {
         getWeatherInfo()
     }
     func getWeatherInfo() {
-        if let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(cityName)&appid=e6490abcb800717934ffa72e4cedc084") {
+        if let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(cityName)&appid=-") {
            let request = URLRequest(url: url)
             URLSession.shared.dataTask(with: request) { [self]data, response, err in
                 if err == nil {
